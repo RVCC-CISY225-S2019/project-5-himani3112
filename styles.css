@@ -1,0 +1,21 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+img{
+    max-width: 100%;
+}
+img.my-picture{
+    border: 2px solid black;
+    
+}
+hr {
+  border:none;
+  border-top:3px dotted #111111;
+  color:#fff;
+  background-color:#fff;
+  height:2px;
+  width:100%;
+}
+.fa-twitter {
+  color: #38A1F3;
+}
