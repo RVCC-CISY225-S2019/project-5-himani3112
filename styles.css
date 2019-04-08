@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 input {
@@ -27,18 +27,6 @@ legend {
     padding: 3px 6px;
 }
 
-lebel {
-    font-weight: bold;
-}
-
-skip:focus {
-    color: black;
-    width: auto;
-    height: auto;
-    overflow: visible;
-
-}
-
 textarea {
     font-size: 1.5em;
 }
@@ -54,8 +42,21 @@ body {
     margin: 0;
 }
 
+label {
+    font-weight: bold;
+}
+
+
 img {
     max-width: 100%;
+}
+
+input:focus, textarea:focus{
+    color: darkblue;
+    width: auto;
+    height: auto;
+    overflow: visible;
+
 }
 
 img.my-picture {
@@ -73,12 +74,6 @@ hr {
 
 .fa-twitter {
     color: #38A1F3;
-}
-
-#message {
-    position: absolute;
-    left: 20px;
-    top: 70px;
 }
 
 footer {
